@@ -72,6 +72,7 @@
     "ALWAYS_ONLINE": {
       "description": "Make it true if you want bot to show always online else leave blank",
       "required": true
+      "value":true
     },
     "AUTO_BLOCK": {
       "description": "Provide country codes you want the bot to automatically block else leave blank",
