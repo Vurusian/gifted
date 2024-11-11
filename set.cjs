@@ -4,9 +4,9 @@ require("dotenv").config();
 const config = {
   SESSION_ID: process.env.SESSION_ID || "",
   PREFIX: process.env.PREFIX || '.',
-  AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚', // For liking status updates(stories)
+  AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '🦠', // For liking status updates(stories)
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS !== undefined ? process.env.AUTO_READ_STATUS === 'true' : true,
-  AUTOLIKE_STATUS: process.env.AUTOLIKE_STATUS !== undefined ? process.env.AUTOLIKE_STATUS === 'true' : false,
+  AUTOLIKE_STATUS: process.env.AUTOLIKE_STATUS !== undefined ? process.env.AUTOLIKE_STATUS === 'true' : true,
   AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS !== undefined ? process.env.AUTO_REPLY_STATUS === 'true' : false,
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || 'Status Viewed by Gifted-Md',
   AUTO_DOWNLOAD: process.env.AUTO_DOWNLOAD !== undefined ? process.env.AUTO_DOWNLOAD === 'true' : false,
@@ -20,11 +20,11 @@ const config = {
   
   AUTO_REJECT_CALLS: process.env.AUTO_REJECT_CALLS !== undefined ? process.env.AUTO_REJECT_CALLS === 'true' : false, 
   NOT_ALLOW: process.env.NOT_ALLOW !== undefined ? process.env.NOT_ALLOW === 'true' : true,
-  MODE: process.env.MODE || "public",
-  OWNER_NAME: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
-  AUTO_BLOCK: process.env.AUTO_BLOCK || "212,99,90",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254762016957",
-  SUDO_NUMBERS: process.env.SUDO_NUMBERS || "254728746852,254742063632",
+  MODE: process.env.MODE || "private",
+  OWNER_NAME: process.env.OWNER_NAME || "Virusi ᴛᴇᴄʜ",
+  AUTO_BLOCK: process.env.AUTO_BLOCK || "212,99,1",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "",
+  SUDO_NUMBERS: process.env.SUDO_NUMBERS || "254728746852,254748721079",
   GEMINI_KEY: process.env.GEMINI_KEY || "AIzaSyAkHGe6qWMujR2BjM468vQbY2RIbp0VXyc",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false, 
 };
